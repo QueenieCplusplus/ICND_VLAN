@@ -53,6 +53,7 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
    * delete vtp 重設
    
    * vtp domain + < name > + < mode > 為虛擬區域網路的網域命名
+   // 三種模式：server、client、transparent。
    
    * show vtp 顯示 vtp 的狀態
    
