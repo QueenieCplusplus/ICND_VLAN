@@ -187,8 +187,9 @@ LLC sublayer - SNAP (IEEE 802.2)
 主幹埠功能：https://github.com/QueenieCplusplus/ICND_VLAN/blob/master/README.md#單一連線跨越多部交換機
    
      * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
-
-     * show vln 顯示虛擬區域網路的狀態
+     /* vlan# 為獨特的四位數辨別碼如 0001 或是 1005 */
+     
+     * show vlan 顯示虛擬區域網路的狀態
 
      * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
 
