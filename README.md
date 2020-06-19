@@ -178,6 +178,7 @@ LLC sublayer - SNAP (IEEE 802.2)
    * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
   
   * show vlan-membership 顯示虛擬區域網路的成員
+   // membership 這些成員就是指交換器上的埠們。
   
   * show spantree + < vlan# > 
   
