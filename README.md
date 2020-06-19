@@ -19,6 +19,7 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
                       
     LAN (Broadcast/Collision)   - serial 0/12         Ｒ        lo 0/4 -   LAN (Broadcast/Collision)
                       
+                      
                                                    eth 0/0
                               
                                                      |
