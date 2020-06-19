@@ -44,7 +44,7 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 
 * encapsulation 資料框封裝
 
-# 交換器主要通道
+# 交換器設定虛擬區域網路網域、主幹、通訊埠配置群組
 
 利用 VTP 協定
 
