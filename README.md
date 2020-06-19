@@ -69,6 +69,10 @@ LLC sublayer - SNAP (IEEE 802.2)
      /* BPDU : 用以識別該 frame 是否為 Spanning Tree 之 BPDU 。 
              網橋協議數據單元是包含有關生成樹協議的信息幀。
              交換機使用唯一的源MAC地址將BPDU從其原始端口發送到具有目標MAC的多播地址。 */
+             
+     /* INDEX: 發送埠的辨識。 */
+     
+     /* RES: 保留欄位。
      
 # 交換器、橋接器的廣播區域劃分（亦稱為虛擬區域網路）
 
