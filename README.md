@@ -158,33 +158,33 @@ LLC sublayer - SNAP (IEEE 802.2)
 
 * 設定的指令
 
-   * delete vtp 重設
-   
-   * vtp domain + < name > + < mode > 為虛擬區域網路的網域命名
-   // 三種模式：server、client、transparent。
-   // 倘若某台交換器為無管理網域狀態，則直到它收到經過主幹的網域傳播為止。
-   
-   * show vtp 顯示 vtp 的狀態
-   // vtp 主幹協定幫助資訊同步備份至其他交換器中，方便擴展。
-   
-   * int + <int no.> + trunk on 設定一交換器介面為主幹埠
-  
-   * show trunk 顯示主幹狀態
+       * delete vtp 重設
+
+       * vtp domain + < name > + < mode > 為虛擬區域網路的網域命名
+       // 三種模式：server、client、transparent。
+       // 倘若某台交換器為無管理網域狀態，則直到它收到經過主幹的網域傳播為止。
+
+       * show vtp 顯示 vtp 的狀態
+       // vtp 主幹協定幫助資訊同步備份至其他交換器中，方便擴展。
+
+       * int + <int no.> + trunk on 設定一交換器介面為主幹埠
+
+       * show trunk 顯示主幹狀態
    
 主幹埠功能：https://github.com/QueenieCplusplus/ICND_VLAN/blob/master/README.md#單一連線跨越多部交換機
    
-   * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
-   
-   * show vln 顯示虛擬區域網路的狀態
-   
-   * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
-  
-  * show vlan-membership 顯示虛擬區域網路的成員
-   // membership 這些成員就是指交換器上的埠們。
-  
-  * show spantree + < vlan# > 
-  
-  
+     * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
+
+     * show vln 顯示虛擬區域網路的狀態
+
+     * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
+
+    * show vlan-membership 顯示虛擬區域網路的成員
+     // membership 這些成員就是指交換器上的埠們。
+
+    * show spantree + < vlan# > 
+
+
   
   
   
