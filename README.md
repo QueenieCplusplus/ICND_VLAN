@@ -40,6 +40,10 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 
 利用 ISL Trunk (交換器間連線幹道) 
 
+* tag 加上標註
+
+* encapsulation 資料框封裝
+
 # 交換器主要通道
 
 利用 VTP 協定
