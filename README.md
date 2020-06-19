@@ -47,3 +47,5 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 # 交換器主要通道
 
 利用 VTP 協定
+
+* 設定的指令
