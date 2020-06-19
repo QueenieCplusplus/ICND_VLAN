@@ -8,15 +8,22 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 路由器不將廣播封包傳送出去，故路由器的每個介面所形成的網段順勢成為一個廣播區域。
 
 
-                                 |
-                                 
-                              eth 0/1
-                      
-          - serial 0/12         Ｒ        lo 0/4 -
-                      
-                              eth 0/0
                               
-                                 |
+                                             LAN (Broadcast/Collision)
+                                
+
+                                                      |
+                                 
+                                                    eth 0/1
+                                                    
+                      
+    LAN (Broadcast/Collision)   - serial 0/12         Ｒ        lo 0/4 -   LAN (Broadcast/Collision)
+                      
+                                                   eth 0/0
+                              
+                                                     |
+                                 
+                                            LAN (Broadcast/Collision)
 
 
 
