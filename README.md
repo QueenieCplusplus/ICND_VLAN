@@ -34,6 +34,15 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
                                  
                                             LAN (Broadcast/Collision)
                                             
+                                            
+# 交換機劃分的廣播網域
+
+基於封包來自哪個虛擬區域網路，可區分各種資料是否 filter、forward、flood (Broadcast)!
+
+* 作法：
+
+每個連接埠專屬一個虛擬區域網路，抑或是將 vlan 資訊保存在封包中傳送。
+                                            
 # Frame
 
 LLC sublayer - SNAP (IEEE 802.2)
