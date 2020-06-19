@@ -79,6 +79,24 @@ LLC sublayer - SNAP (IEEE 802.2)
 
 劃分基礎不因地，可選擇因主機功能、團隊（部門）性質、應用程式目標，每個交換器的通訊埠僅能提供一個 VLAN 使用，同一 VLAN 的連接埠可分享廣播資訊。
 
+# 單一連線跨越多部交換機
+
+使用 trunk 技術，主幹相連，利用每台交換機的某一埠（主幹用埠)，彼此透過乙太網路主幹道相連，這些孔與主幹負載了多個不同 vlan 的 fames，故 trunk port 需要設定在高速乙太網路埠上。
+
+
+
+              sw A                                      sw B
+                                      payloads
+     port    port   port   trunk port -------  trunk port port  port  port 
+     
+       |      |      |                                      |     |     |             
+       |      |      |                                      |     |     |
+       |      |      |                                      |     |     |
+      vlan 1  |      |                                      |     |     |
+            vlan2    |                                      |     |     |
+                   vlan3                                  vlan4   |     |
+                                                                vlan5   |
+                                                                       vlan 6
 
 # 交換器彼此相連
 
