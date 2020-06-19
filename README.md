@@ -81,7 +81,7 @@ LLC sublayer - SNAP (IEEE 802.2)
  
 # 虛擬區域網路
 
-交換機的埠能配置 vlan，每個 vlan 都有位址學習、傳送、過濾、避免迴圈，而一個 vlan 可能有多個連接埠～ ???
+交換機的埠能配置 vlan，每個 vlan 都有位址學習、傳送、過濾、避免迴圈，而一個 vlan 可能有多個連接埠～ 而一個埠只能有一個 vlan。
 
 當交換機的某連接埠收到一資料框時，交換機會將此 fame 發送到目的地 (與源頭同樣虛擬區域網域)，不會送到其他 vlan 上，除非 flood...，即便真的產生無法辨識目的地方而氾濫（氾洪）時，也只會廣播至此設備的所有廣播區，此時此設備為一廣播區而非一埠自成廣播區。
      
@@ -187,12 +187,18 @@ LLC sublayer - SNAP (IEEE 802.2)
    
 主幹埠功能：https://github.com/QueenieCplusplus/ICND_VLAN/blob/master/README.md#單一連線跨越多部交換機
    
-     * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
+    * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
      /* vlan# 為獨特的四位數辨別碼如 0001 或是 1005 */
      
-     * show vlan 顯示虛擬區域網路的狀態
+    * show vlan 顯示虛擬區域網路的狀態
 
-     * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
+    * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
+     
+    * vlan-membership static + < vlan #> 
+     //以介面設定模式下，下此指令可靜態配置介面予某虛擬區域網路。
+     
+    * vlan-membership dynamic 
+     //以介面設定模式下，下此指令可動態配置介面予某虛擬區域網路。
 
     * show vlan-membership 顯示虛擬區域網路的成員
      // membership 這些成員就是指交換器上的埠們。
