@@ -44,6 +44,8 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 
 * tag 加上標註
 
+  能在同一實體線路上實現多工傳送，有低延遲效果。
+
 * encapsulation 資料框封裝
 
 # 交換器設定虛擬區域網路網域、主幹、通訊埠配置群組
