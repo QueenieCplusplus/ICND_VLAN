@@ -132,7 +132,7 @@ LLC sublayer - SNAP (IEEE 802.2)
    
    * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
    
-   * show valn 顯示虛擬區域網路的狀態
+   * show vln 顯示虛擬區域網路的狀態
    
    * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
   
