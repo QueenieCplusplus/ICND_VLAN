@@ -40,6 +40,8 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 
 利用 ISL Trunk (交換器間連線幹道) 
 
+原理為 Application-specific integrated circuit  特殊應用的積體電路所作用。
+
 * tag 加上標註
 
 * encapsulation 資料框封裝
