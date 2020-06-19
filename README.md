@@ -85,7 +85,7 @@ LLC sublayer - SNAP (IEEE 802.2)
 
 
 
-              sw A                                      sw B
+              sw A   ---------------- 802.1q------------------ sw B
                                       payloads
      port    port   port   trunk port -------  trunk port port  port  port 
      
