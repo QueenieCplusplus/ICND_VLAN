@@ -25,7 +25,14 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
                                                      |
                                  
                                             LAN (Broadcast/Collision)
+                                            
+# Frame
 
+LLC sublayer - SNAP (IEEE 802.2)
+
+     +----------+----------+-----------+--------+----------------+-----+
+     | Preamble | Dest Add | Sorce Add | Length | Variable (Data)| FCS |
+     +----------+----------+-----------+--------+----------------+-----+
 
 
 
@@ -49,6 +56,20 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 * encapsulation 資料框封裝
 
  不會進入 client 端，資料框進入客戶端便除去 ISL 標頭。
+ 
+ 
+ LLC sublayer - SNAP (IEEE 802.2)
+
+     +----------+----------+-----------+--------+----------------+-----+
+     | Preamble | Dest Add | Sorce Add | Length | Variable (Data)| FCS |
+     +----------+----------+-----------+--------+----------------+-----+
+     
+     
+ 其 ISL 標頭（表頭）
+ 
+ 
+ 
+ 
 
 # 交換器設定虛擬區域網路網域、主幹、通訊埠配置群組
 
