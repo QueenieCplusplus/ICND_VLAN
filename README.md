@@ -49,3 +49,23 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
 利用 VTP 協定
 
 * 設定的指令
+
+   * delete vtp 重設
+   
+   * vtp domain + < name > + < mode > 為虛擬區域網路的網域命名
+   
+   * show vtp 顯示 vtp 的狀態
+   
+   * int + <int no.> + trunk on 設定一交換器介面為主幹埠
+  
+   * show trunk 顯示主幹狀態
+   
+   * vlan + < vlan# > + name + < name > 定義一虛擬區域網路及其名稱
+   
+   * show valn 顯示虛擬區域網路的狀態
+   
+   * int + <int no.> + vlan membership static + < vlan# > 將一交換器介面指定予 VLAN
+  
+  * show vlan-membership 顯示虛擬區域網路的成員
+  
+  * show spantree + < vlan# > 
