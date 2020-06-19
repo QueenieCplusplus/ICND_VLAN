@@ -56,6 +56,7 @@ https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功�
    // 三種模式：server、client、transparent。
    
    * show vtp 顯示 vtp 的狀態
+   // vtp 主幹協定幫助資訊同步備份至其他交換器中，方便擴展。
    
    * int + <int no.> + trunk on 設定一交換器介面為主幹埠
   
