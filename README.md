@@ -183,7 +183,10 @@ LLC sublayer - SNAP (IEEE 802.2)
      // membership 這些成員就是指交換器上的埠們。
 
     * show spantree + < vlan# > 
-
+    
+ # Ref Doc
+ 
+ https://www.netadmin.com.tw/netadmin/zh-tw/technology/FFD0629A85794E9BAC2A9173D5B96EDC
 
   
   
