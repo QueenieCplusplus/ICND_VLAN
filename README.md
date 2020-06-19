@@ -176,6 +176,7 @@ LLC sublayer - SNAP (IEEE 802.2)
        * vtp domain + < name > + < mode > 為虛擬區域網路的網域命名
        // 三種模式：server、client、transparent。
        // 倘若某台交換器為無管理網域狀態，則直到它收到經過主幹的網域傳播為止。
+       // 預設為 server 模式。(SNMP)
 
        * show vtp 顯示 vtp 的狀態
        // vtp 主幹協定幫助資訊同步備份至其他交換器中，方便擴展。
