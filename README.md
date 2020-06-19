@@ -154,7 +154,7 @@ LLC sublayer - SNAP (IEEE 802.2)
 
 # 交換器設定虛擬區域網域、主幹埠、通訊埠配置虛擬區域網域（成員）
 
-利用 VTP 協定
+利用 Vlan Trunking Protocol 協定
 
 * 設定的指令
 
