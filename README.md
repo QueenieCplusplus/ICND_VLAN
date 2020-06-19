@@ -5,6 +5,9 @@
 
 https://github.com/QueenieCplusplus/ICND_Bridge
 
+原本一台交換機可劃分四個碰撞區、一個廣播區。
+一旦使用虛擬區域網路，則使用一台交換器，（藉由通訊埠或是連接埠）可劃分多個廣播區。
+
 # 路由器的廣播區域劃分
 
 https://github.com/QueenieCplusplus/ICND_Internet_Packet#路由設備 詳見功能之2。
